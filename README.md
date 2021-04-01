@@ -16,30 +16,30 @@
 #### HDF5 for Python
 
 ### 1. Network architecture
-![RUNOOB 图标](./results/fig1.jpg)
+![RUNOOB 图标](./results/fig1.png)
 
 ### 2. Real noisy images
-![RUNOOB 图标](./results/fig2.jpg)
+![RUNOOB 图标](./results/fig2.png)
 
 ### 3. Effectiveness of key techniques in the DudeNet for image denoising
-![RUNOOB 图标](./results/Table1.jpg)
+![RUNOOB 图标](./results/Table1.png)
 
 ### 4. Run-time of key techniques in the DudeNet for different sizes noisy images
-![RUNOOB 图标](./results/Table2.jpg)
+![RUNOOB 图标](./results/Table2.png)
 
 
 ### Test Results
 #### 5. DudeNet for BSD68
-![RUNOOB 图标](./results/Table4.jpg)
+![RUNOOB 图标](./results/Table4.png)
 
 #### 6. DudeNet for Set12
-![RUNOOB 图标](./results/Table5.jpg)
+![RUNOOB 图标](./results/Table5.png)
 
 #### 7. DudeNet for CBSD68 and Kodak24
-![RUNOOB 图标](./results/Table6.jpg)
+![RUNOOB 图标](./results/Table6.png)
 
 #### 8. DudeNet for real noisy images 
-![RUNOOB 图标](./results/Table7.jpg)
+![RUNOOB 图标](./results/Table7.png)
 
 #### 9. Run-time of DudeNet for a noisy image of different sizes.
 ![RUNOOB 图标](./results/Table9.jpg)
