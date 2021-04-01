@@ -15,46 +15,49 @@
 #### openCv for Python
 #### HDF5 for Python
 
-### 1. Network architecture
+### 1. Network architecture of ACNet
 ![RUNOOB 图标](./results/fig1.png)
 
-### 2. Real noisy images
+### 2. Implementations of the sub-pixel convolution.
 ![RUNOOB 图标](./results/fig2.png)
-
-### 3. Effectiveness of key techniques in the DudeNet for image denoising
-![RUNOOB 图标](./results/Table1.png)
-
-### 4. Run-time of key techniques in the DudeNet for different sizes noisy images
-![RUNOOB 图标](./results/Table2.png)
 
 
 ### Test Results
-#### 5. DudeNet for BSD68
-![RUNOOB 图标](./results/Table4.png)
+### 3. Average PSNR/SSIM values of different methods for three scale factors of x2, x3 and 4 on the Set5.
+![RUNOOB 图标](./results/table4.png)
 
-#### 6. DudeNet for Set12
-![RUNOOB 图标](./results/Table5.png)
+### 4. Average PSNR/SSIM values of different methods for three scale factors of x2, x3 and 4 on the Set14.
+![RUNOOB 图标](./results/table5.png)
 
-#### 7. DudeNet for CBSD68 and Kodak24
-![RUNOOB 图标](./results/Table6.png)
 
-#### 8. DudeNet for real noisy images 
-![RUNOOB 图标](./results/Table7.png)
+### 5. Average PSNR/SSIM values of different methods for three scale factors of x2, x3 and 4 on the B100.
+![RUNOOB 图标](./results/table6.png)
 
-#### 9. Run-time of DudeNet for a noisy image of different sizes.
-![RUNOOB 图标](./results/Table9.jpg)
+### 6. Average PSNR/SSIM values of different methods for three scale factors of x2, x3 and 4 on the U100.
+![RUNOOB 图标](./results/table7.png)
 
-### 10.Complexity analysis of different networks.
-![RUNOOB 图标](./results/Table3.jpg)
+### 7. Complexity of five methods in SISR.
+![RUNOOB 图标](./results/table8.png)
 
-#### 11. Visual results of Set12
-![RUNOOB 图标](./results/fig3.jpg)
+### 8. Running time (Seconds) of five methods on the given LR images of sizes 128x128, 256x256 and 512x512 for scale factor of x2.
+![RUNOOB 图标](./results/table9.png)
 
-#### 12. Visual results of BSD68
-![RUNOOB 图标](./results/fig4.jpg)
+### 9. Average FSIM values of different methods with three scale factors of x2, x3 and x4 on the B100.
+![RUNOOB 图标](./results/table10.png)
 
-#### 13. Visual results of CBSD68
-![RUNOOB 图标](./results/fig5.jpg)
+### 10. Average PSNR/SSIM values of different methods for noise level of 15 with three scale factors of x2, x3 and x4 on the Set5, Set14, B100 and U100. 
+![RUNOOB 图标](./results/table11.png)
+
+
+#### 11.  Average PSNR/SSIM values of different methods for noise level of 25 with three scale factors of x2, x3 and x4 on the Set5, Set14, B100 and U100. 
+![RUNOOB 图标](./results/table12.png)
+
+#### 12. Average PSNR/SSIM values of different methods for noise level of 35 with three scale factors of x2, x3 and x4 on the Set5, Set14, B100 and U100. 
+![RUNOOB 图标](./results/table13.png)
+
+#### 13. Average PSNR/SSIM values of different methods for noise level of 50 with three scale factors of x2, x3 and x4 on the Set5, Set14, B100 and U100. 
+![RUNOOB 图标](./results/table14.png)
+
 
 #### 14. Visual results of Kodak24 
 ![RUNOOB 图标](./results/fig6.jpg)
