@@ -58,6 +58,39 @@
 #### 13. Average PSNR/SSIM values of different methods for noise level of 50 with three scale factors of x2, x3 and x4 on the Set5, Set14, B100 and U100. 
 ![RUNOOB 图标](./results/table14.png)
 
+### Visual effect of the ACNet
+#### 14. Visual figures of flat areas of different methods from U100 for x2.
+![RUNOOB 图标](./results/fig3.png)
 
-#### 14. Visual results of Kodak24 
-![RUNOOB 图标](./results/fig6.jpg)
+#### 15. Visual figures of flat areas of different methods on the Y channels from U100 for x2.
+![RUNOOB 图标](./results/fig4.png)
+
+#### 16. Visual figures of flat areas of different methods on the error images from U100 for x2.
+![RUNOOB 图标](./results/fig5.png)
+
+#### 17. Visual figures of flat areas of different methods on the edge images from U100 for x2.
+![RUNOOB 图标](./results/fig6.png)
+
+#### 18. Visual figures of texture areas of different methods  on the figures from B100 for x2.
+![RUNOOB 图标](./results/fig7.png)
+
+#### 19. Visual figures of texture areas of different methods on the channels from B100 for x2.
+![RUNOOB 图标](./results/fig8.png)
+
+#### 20. Visual figures of texture areas of different methods on the error images from B100 for x2. 
+![RUNOOB 图标](./results/fig9.png)
+
+#### 21. Visual figures of texure areas of different methods on the edge images from B100 for x2. 
+![RUNOOB 图标](./results/fig10.png)
+
+#### 22. Visual figures of fine details areas of different methods on the figures from U100 for x2. 
+![RUNOOB 图标](./results/fig11.png)
+
+#### 23. Visual figures of fine details areas from different methods on the Y channels from U100 for x2. 
+![RUNOOB 图标](./results/fig12.png)
+
+#### 24. Visual figures of fine details areas of different methods on the error images from U100 for x2. 
+![RUNOOB 图标](./results/fig13.png)
+
+#### 25. Visual figures of fine details areas of different methods on the edge images from U100 for x2. 
+![RUNOOB 图标](./results/fig14.png)
