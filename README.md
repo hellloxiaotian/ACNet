@@ -2,7 +2,7 @@
 ## Asymmetric CNN for image super-resolution
 ## This paper is conducted by Chunwei Tian, Yong Xu, Wangmeng Zuo, Chia-Wen Lin and David Zhang. It is implemented by Pytorch. 
 ## Besides, it is accepted by the IEEE Transactions on Systmes, Man, and  Cybernetics: Systems (IEEE TSMC, IF:9.309) in 2021. (Acceptance rate of 10%)
-## This paper can be obtained at https://arxiv.org/abs/2103.13634. Also, it is been pushed by the famous CV wechat accout, 52CV at https://mp.weixin.qq.com/s/tpG663ZfUTTAe_Wm4YmcPQ.  
+## This paper can be obtained at https://arxiv.org/abs/2103.13634. Also, it is been pushed by the famous CV wechat accout, 52CV at https://mp.weixin.qq.com/s/tpG663ZfUTTAe_Wm4YmcPQ and Cver at https://mp.weixin.qq.com/s/FNpurdPInb_trvgDNYpjwQ.  
 
 ### We propose a asymmetric super-resolution network for blind image super-solution. 
 
