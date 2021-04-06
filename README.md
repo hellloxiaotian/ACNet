@@ -6,7 +6,7 @@
 
 ### We propose a asymmetric super-resolution network for blind image super-solution. 
 
-### Contributions: 1. An asymmtric architecture is used to enhance the effect of local key features on square kernel in horizontal and vertical ways for extracting more accurate low-frequency features and accelerating training speed. 
+### Contributions: 1. An asymmtric architecture is used to enhance the effect of local key features on square kernel in horizontal and vertical ways for extracting more accurate low-frequency features and accelerating training speed in SISR. 
 ### 2. Using a model can better deal with image super-resolution of certain scale, blind super-resolution and blind super-resolution with blind noise. 
 
 ## Abstract
