@@ -37,7 +37,7 @@
 ### cd dataset
 ### python div2h5.py
 
-### The codes would are released soon. 
+### The codes will be released next week. 
 
 
 ### 1. Network architecture of ACNet
