@@ -121,11 +121,13 @@
 ![RUNOOB 图标](./results/fig14.png)
 
 ### If you cite this paper, please refer to the following formats: 
-#### 1.Tian C, Xu Y, Zuo W, et al. Asymmetric CNN for image super-resolution[J]. arXiv preprint arXiv:2103.13634, 2021.
+#### 1.Tian C, Xu Y, Zuo W, et al. Asymmetric CNN for Image Superresolution[J]. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2021.
 
-#### 2. @article{tian2021asymmetric,
-#### title={Asymmetric CNN for image super-resolution},
-#### author={Tian, Chunwei and Xu, Yong and Zuo, Wangmeng and Lin, Chia-Wen and Zhang, David},
-#### journal={arXiv preprint arXiv:2103.13634},
-#### year={2021}
-}
+
+##### @article{tian2021asymmetric,
+##### title={Asymmetric CNN for Image Superresolution},
+##### author={Tian, Chunwei and Xu, Yong and Zuo, Wangmeng and Lin, Chia-Wen and Zhang, David},
+##### journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+##### year={2021},
+##### publisher={IEEE}
+##### }
