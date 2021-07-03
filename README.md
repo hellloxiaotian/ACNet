@@ -70,13 +70,13 @@
 
 ### Test a ACNet for for image super-resolution with varying scale 
 ### x2 
-#### python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./x2/acnet_b_600000.pth --sample_dir Set5_x2_s 
+#### python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./acnet-b/acnet_b_600000.pth --sample_dir Set5_x2_s 
 
 ### x3 
-####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./x3/acnet_b_600000.pth --sample_dir Set5_x3_s 
+####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./acnet-b/acnet_b_600000.pth --sample_dir Set5_x3_s 
 
 ### x4
-####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./x4/acnet_b_600000.pth --sample_dir Set5_x4_s
+####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./acnet-b/acnet_b_600000.pth --sample_dir Set5_x4_s
 ### ---------------------------------------------------------------------------------------------------------------------------
 ### 1. Network architecture of ACNet
 ![RUNOOB 图标](./results/fig1.png)
