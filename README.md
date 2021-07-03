@@ -34,11 +34,38 @@
 #### The  test dataset of Urban100 is downloaded at 链接：https://pan.baidu.com/s/15k55SkO6H6A7zHofgHk9fw (secret code：2hny) (baiduyun) or https://drive.google.com/file/d/1yArL2Wh79Hy2i7_YZ8y5mcdAkFTK5HOU/view?usp=sharing (google drive) 
 
 ### preprocessing
-### cd dataset
-### python div2h5.py
+#### Download the training dataset and test datasets
+#### Move these datasets into the dataset 
+#### cd dataset
+#### Decompress the compressed training dataset and test datasets
+#### python div2h5.py
 
-# The codes will be released next week. 
+### Training processing
+##### Training a ACNet for image super-resolution with certain scale  
+### x2 
+#### 
 
+### x3 
+####
+
+### x4
+####
+
+##### Training a ACNet for blind super-resolution as well as image super-resolution with varying scale 
+#### 
+
+### Test a ACNet for for image super-resolution with certain scale  
+### x2 
+#### python x2/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./x2/acnet_x2_600000.pth --sample_dir Set5_x2_s 
+
+### x3 
+####  python x3/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./x3/acnet_x3_600000.pth --sample_dir Set5_x3_s 
+
+### x4
+####  python x4/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./x4/acnet_x4_600000.pth --sample_dir Set5_x4_s
+
+
+### Test a ACNet for for image super-resolution with varying scale 
 
 ### 1. Network architecture of ACNet
 ![RUNOOB 图标](./results/fig1.png)
