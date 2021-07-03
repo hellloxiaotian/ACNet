@@ -41,7 +41,7 @@
 #### Decompress the compressed training dataset and test datasets
 #### python div2h5.py
 
-### ----------------------------------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------------------------
 ### Training processing
 ### Training a ACNet for image super-resolution with certain scale  
 ### x2 
@@ -56,7 +56,7 @@
 ### Training a ACNet for blind super-resolution as well as image super-resolution with varying scale 
 #### 
 
-### ----------------------------------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------------------------
 ### Test a ACNet for for image super-resolution with certain scale  
 ### x2 
 #### python x2/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./x2/acnet_x2_600000.pth --sample_dir Set5_x2_s 
@@ -70,7 +70,7 @@
 
 ### Test a ACNet for for image super-resolution with varying scale 
 
-### ----------------------------------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------------------------
 ### 1. Network architecture of ACNet
 ![RUNOOB 图标](./results/fig1.png)
 
