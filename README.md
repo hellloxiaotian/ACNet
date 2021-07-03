@@ -45,7 +45,7 @@
 ### Training processing
 ### Training a ACNet for image super-resolution with certain scale  
 ### x2 
-#### 
+####  python x2/train.py --patch_size --batch_size 16 
 
 ### x3 
 ####
@@ -54,8 +54,7 @@
 ####
 
 ### Training a ACNet for blind super-resolution as well as image super-resolution with varying scale 
-#### 
-
+#### python acnet-b/train.py --patch_size 64 --batch_size 8 --max_steps 600000 --decay 400000 --model acnet-b --ckpt_name acnet_b --ckpt_dir checkpoint/acnet_b --scale 0 --num_gpu 2 (If the number of gpu is 2, num_gpu may be set to 2, otherwise, it may be 1) 
 ### ---------------------------------------------------------------------------------------------------------------------------
 ### Test a ACNet for for image super-resolution with certain scale  
 ### x2 
