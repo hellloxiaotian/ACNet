@@ -44,38 +44,38 @@
 ### ---------------------------------------------------------------------------------------------------------------------------
 ### Training processing
 ### Training a ACNet for image super-resolution with certain scale  
-### x2 
-####  python x2/train.py --patch_size --batch_size 16 
+### x2
+#### python x2/train.py --patch_size 64 --batch_size 16 --max_steps 660000 --decay 400000 --model acnet --ckpt_name acnet_x2 --ckpt_dir checkpoint/acnet_x2 --scale 2 --num_gpu 2 (If the number of gpu is 2, num_gpu may be set to 2, otherwise, it may be 1) 
 
 ### x3 
-####
+#### python x3/train.py --patch_size 64 --batch_size 16 --max_steps 660000 --decay 400000 --model acnet --ckpt_name acnet_x3 --ckpt_dir checkpoint/acnet_x3 --scale 3 --num_gpu 2 (If the number of gpu is 2, num_gpu may be set to 2, otherwise, it may be 1) 
 
 ### x4
-####
+#### python x4/train.py --patch_size 64 --batch_size 16 --max_steps 660000 --decay 400000 --model acnet --ckpt_name acnet_x4 --ckpt_dir checkpoint/acnet_x4 --scale 4 --num_gpu 2 (If the number of gpu is 2, num_gpu may be set to 2, otherwise, it may be 1) 
 
 ### Training a ACNet for blind super-resolution as well as image super-resolution with varying scale 
-#### python acnet-b/train.py --patch_size 64 --batch_size 8 --max_steps 600000 --decay 400000 --model acnet-b --ckpt_name acnet_b --ckpt_dir checkpoint/acnet_b --scale 0 --num_gpu 2 (If the number of gpu is 2, num_gpu may be set to 2, otherwise, it may be 1) 
+#### python acnet-b/train.py --patch_size 64 --batch_size 8 --max_steps 660000 --decay 400000 --model acnet-b --ckpt_name acnet_b --ckpt_dir checkpoint/acnet_b --scale 0 --num_gpu 2 (If the number of gpu is 2, num_gpu may be set to 2, otherwise, it may be 1) 
 ### ---------------------------------------------------------------------------------------------------------------------------
 ### Test a ACNet for for image super-resolution with certain scale  
 ### x2 
-#### python x2/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./x2/acnet_x2_600000.pth --sample_dir Set5_x2_s 
+#### python x2/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./x2/acnet_x2_660000.pth --sample_dir Set5_x2_s 
 
 ### x3 
-####  python x3/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./x3/acnet_x3_600000.pth --sample_dir Set5_x3_s 
+####  python x3/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./x3/acnet_x3_660000.pth --sample_dir Set5_x3_s 
 
 ### x4
-####  python x4/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./x4/acnet_x4_600000.pth --sample_dir Set5_x4_s
+####  python x4/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./x4/acnet_x4_660000.pth --sample_dir Set5_x4_s
 
 
 ### Test a ACNet for for image super-resolution with varying scale 
 ### x2 
-#### python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./acnet-b/acnet_b_600000.pth --sample_dir Set5_x2_s 
+#### python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 2 --ckpt_path ./acnet-b/acnet_b_660000.pth --sample_dir Set5_x2_s 
 
 ### x3 
-####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./acnet-b/acnet_b_600000.pth --sample_dir Set5_x3_s 
+####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 3 --ckpt_path ./acnet-b/acnet_b_660000.pth --sample_dir Set5_x3_s 
 
 ### x4
-####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./acnet-b/acnet_b_600000.pth --sample_dir Set5_x4_s
+####  python acnet-b/tcw_sample.py --model acnet --test_data_dir dataset/Set5 --scale 4 --ckpt_path ./acnet-b/acnet_b_660000.pth --sample_dir Set5_x4_s
 ### ---------------------------------------------------------------------------------------------------------------------------
 ### 1. Network architecture of ACNet
 ![RUNOOB 图标](./results/fig1.png)
