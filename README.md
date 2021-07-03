@@ -41,7 +41,7 @@
 #### python div2h5.py
 
 ### Training processing
-##### Training a ACNet for image super-resolution with certain scale  
+### Training a ACNet for image super-resolution with certain scale  
 ### x2 
 #### 
 
@@ -51,7 +51,7 @@
 ### x4
 ####
 
-##### Training a ACNet for blind super-resolution as well as image super-resolution with varying scale 
+### Training a ACNet for blind super-resolution as well as image super-resolution with varying scale 
 #### 
 
 ### Test a ACNet for for image super-resolution with certain scale  
