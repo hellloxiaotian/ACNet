@@ -3,6 +3,7 @@
 ## This paper is conducted by Chunwei Tian, Yong Xu, Wangmeng Zuo, Chia-Wen Lin and David Zhang. It is implemented by Pytorch. 
 ## Besides, it is accepted by the IEEE Transactions on Systmes, Man, and  Cybernetics: Systems (IEEE TSMC, IF:11.471) in 2021. (Acceptance rate of 10%)
 ## This paper can be obtained at https://arxiv.org/abs/2103.13634 and https://ieeexplore.ieee.org/abstract/document/9420448. Also, it is been pushed by the famous CV wechat accout, 52CV at https://mp.weixin.qq.com/s/tpG663ZfUTTAe_Wm4YmcPQ, Cver at https://mp.weixin.qq.com/s/FNpurdPInb_trvgDNYpjwQ, AI technique at  https://mp.weixin.qq.com/s/wBMaU1QCkwL2-3EHETryvw and HappyAIWalker at https://mp.weixin.qq.com/s/zzS16Zxc4WXbXtnH70uBnQ.
+## It is an excellent paper of Shenzhen and Taicang in 2022. 
 
 ### We propose a asymmetric super-resolution network for blind image super-solution. 
 
